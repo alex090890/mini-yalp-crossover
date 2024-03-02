@@ -1,0 +1,12 @@
+.search_container{
+ background-color: white;
+ display: flex;
+ flex-direction: row;  
+
+
+}
+
+.flex_columns{
+    display: flex;
+    flex-direction: column;
+}

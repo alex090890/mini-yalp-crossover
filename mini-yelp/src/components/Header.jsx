@@ -1,15 +1,16 @@
+import SearchBar from "./searchbar/SeachBar";
 import './Header.css';
 import MainMenu from './MainMenu'
 import { Box, Flex, Heading, Button} from '@chakra-ui/react';
 import { Select } from '@chakra-ui/react'
 
 
-
 export default function Header() {
     return (
         <>
         <div className="header">
-            <h1>Hello There</h1>
+            <SearchBar/>
+            <Flex alignItems="center" p={4} bg="white">
             <Flex alignItems="center" p={4} bg="white" justifyContent="flex-start">
       <Select placeholder='Yelp For Business' _hover={{ bg: 'gray.200', cursor: 'pointer'}} color="white" mr={30} bg="transparent">
         <option value='option1'>Login into Business Account</option>
@@ -20,8 +21,6 @@ export default function Header() {
       <Button colorScheme='blue' _hover={{ bg: 'blue.600' }} mr={10} color="Blue">Login</Button>
       <Button colorScheme='blue' _hover={{ bg: 'red.500' }} mr={10} color="Blue">Register</Button>
     </Flex>    
-            
-
         </div>
         </>
         
