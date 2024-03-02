@@ -36,9 +36,16 @@ const RestaurantsList = () => {
                   Address: {restaurant.location.address}, {restaurant.location.city}, {restaurant.location.state},{' '}
                   {restaurant.location.zip_code}
                 </p>
-              </CardBody>
-              <CardFooter>
                 <p>Rating: {restaurant.rating}</p>
+              </CardBody>
+              <CardFooter className="cardfooter">
+                <h3>Reviews:</h3><br/><br/>
+                {restaurant.reviews.map((review, index) => (
+                  
+                  <ul key={index} >
+                    <li className="userreviews"><b> {review.user_id} wrote: </b>  {review.text}</li>
+                  </ul>
+                ))}
               </CardFooter>
             </Stack>
           </Card>

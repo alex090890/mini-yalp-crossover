@@ -6,3 +6,9 @@
     font-size: 100px;
     text-align: center;
 }
+
+.userreviews {
+  text-decoration: none;
+  display: inline-flex;
+  margin: 10px;
+}
