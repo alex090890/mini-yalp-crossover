@@ -24,8 +24,8 @@ export default function Header() {
         <option value='option3'>Explore Yelp For Business</option>
       </Select>
       <Button colorScheme='blue' _hover={{ bg: 'blue.600', cursor: "pointer" }} mr={10}>Write an Article </Button>
-      <Button colorScheme='blue' _hover={{ bg: 'blue.600' }} mr={10} color="Blue">Login</Button>
-      <Button colorScheme='blue' _hover={{ bg: 'red.500' }} mr={10} color="Blue">Register</Button>
+      <Button colorScheme='blue' _hover={{ bg: 'blue.600' }} mr={10} color="White">Login</Button>
+      <Button colorScheme='blue' _hover={{ bg: 'red.500' }} mr={10} color="White">Register</Button>
           </Flex>
            <MainMenu />      
         </div>
