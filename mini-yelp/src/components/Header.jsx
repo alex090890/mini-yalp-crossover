@@ -1,7 +1,7 @@
 import SearchBar from "./searchbar/SeachBar";
 import './Header.css';
 import MainMenu from './MainMenu'
-import { Box, Flex, Heading, Button} from '@chakra-ui/react';
+import {  Flex, Button} from '@chakra-ui/react';
 import { Select } from '@chakra-ui/react'
 
 
