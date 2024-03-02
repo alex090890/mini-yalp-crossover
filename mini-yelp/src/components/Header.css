@@ -1,6 +1,4 @@
+.header {
+     background-color: rgba(128, 128, 128, 0.901);
+}
 
-    .header {
-        background-image: url("/Headerimage.jpg");
-        background-size: cover;
-        background-position: center;
-      }
