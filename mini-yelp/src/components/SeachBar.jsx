@@ -1,9 +1,17 @@
-import {
-    FormControl,
-    Select,Grid,GridItem
-  } from '@chakra-ui/react'
+import {FormControl,Select,Grid,GridItem} from '@chakra-ui/react'
+import {dummy_restaurants} from '../services/Services'
+import { useState } from 'react';
 
   const SearchBar = () => {
+    const [Restaurant, SetRestaurant] = useState();
+
+    const GetRestaurantCatalog = () =>{
+        dummy_restaurants().then(() => {
+            SetRestaurant()
+        })
+   
+      
+        }
     return ( 
         <>
         
