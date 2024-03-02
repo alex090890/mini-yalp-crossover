@@ -1,3 +1,5 @@
 .header {
      background-color: rgba(128, 128, 128, 0.901);
+    background-image:url("mini-yelp\public\Img\Headerimage.jpg") ;
+    color: blue;
 }
