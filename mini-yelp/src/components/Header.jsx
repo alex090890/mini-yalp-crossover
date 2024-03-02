@@ -25,7 +25,7 @@ export default function Header() {
       </Select>
       <Button colorScheme='blue' _hover={{ bg: 'blue.600', cursor: "pointer" }} mr={10}>Write an Article </Button>
       <Button colorScheme='blue' _hover={{ bg: 'blue.600' }} mr={10} color="White">Login</Button>
-      <Button colorScheme='blue' _hover={{ bg: 'red.500' }} mr={10} color="White">Register</Button>
+      <Button colorScheme='blue' _hover={{ bg: 'Green.500' }} mr={10} color="White">Register</Button>
           </Flex>
            <MainMenu />      
         </div>
