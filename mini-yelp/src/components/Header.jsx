@@ -10,7 +10,7 @@ export default function Header() {
         <>
         <div className="header">
             <SearchBar/>
-            <Flex alignItems="center" p={4} bg="white">
+    
             <Flex alignItems="center" p={4} bg="white" justifyContent="flex-start">
       <Select placeholder='Yelp For Business' _hover={{ bg: 'gray.200', cursor: 'pointer'}} color="white" mr={30} bg="transparent">
         <option value='option1'>Login into Business Account</option>
