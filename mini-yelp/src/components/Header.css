@@ -1,3 +1,6 @@
-.header {
-    background-image:url("mini-yelp\public\Img\Headerimage.jpg") ;
-}
+
+    .header {
+        background-image: url("/Headerimage.jpg");
+        background-size: cover;
+        background-position: center;
+      }
